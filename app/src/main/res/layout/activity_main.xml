@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="30dp">
+
+
+        <TextView
+            android:id="@+id/myLibraryTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="-36dp"
+            android:text="MY LIBRARY"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:paddingLeft="25dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/BooksRlayout"
+        android:layout_width="357dp"
+        android:layout_height="555dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginBottom="26dp"
+        >
+
+        <Button
+            android:id="@+id/seeAllBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="0dp"
+            android:text="SEE ALL BOOKS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cuttleyRedadingBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seeAllBooks"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="CURRENTLY READING BOOKS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/wantsToReadBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cuttleyRedadingBooks"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="WANTS TO READ BOOKS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/alreadyReadingBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wantsToReadBooks"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="ALREADY READING BOOKS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alreadyReadingBooks"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="ABOUT"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
